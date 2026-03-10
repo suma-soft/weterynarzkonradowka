@@ -274,7 +274,7 @@ background-size: cover;
 	}*/
     
   .flipper{
-        background-color: #d7ecff;
+        background-color: #E8F5E8;
         margin-left: 15vw;
       margin-right: 15vw;
       margin-bottom: 15vw;
@@ -1111,7 +1111,7 @@ section#about .section-heading {
 		.front {
 			-webkit-transform: rotateY(0deg);
 			-ms-transform: rotateY(0deg);
-			background:#D7ECFF;
+			background:#E8F5E8;
 			z-index: 2;
 		}
 
@@ -1415,6 +1415,14 @@ ul.social-buttons {
     font-size: clamp(16px, 1.5vw, 22px);
 }
 
+/* Specjalne style dla tekstu rejestracji */
+.registration-info {
+    font-size: clamp(18px, 2.4vw, 28px) !important;
+    font-weight: 500 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 2em !important;
+}
+
 #mapa-top {
 padding-top: 68px;
 background-color:#222222;
@@ -1591,6 +1599,10 @@ ul.fa-ul i
     font-size: 28px;
   }
   
+  .registration-info {
+    font-size: 32px !important;
+  }
+  
   #hours, #hours td {
     font-size: 26px;
   }
@@ -1657,6 +1669,10 @@ ul.fa-ul i
   
   #contact .kontakt {
     font-size: 32px;
+  }
+  
+  .registration-info {
+    font-size: 40px !important;
   }
   
   #hours, #hours td {
